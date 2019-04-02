@@ -15,26 +15,26 @@
             android:orientation="vertical" >
 
             <EditText
+                android:id="@+id/editText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:text="Masukkan Nama anda"
                 android:ems="10"
-                android:id="@+id/editText" />
+                android:hint="Maukan Nama"
+                android:inputType="textPersonName" />
 
             <EditText
+                android:id="@+id/editText2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:text="Masukkan Email anda"
                 android:ems="10"
-                android:id="@+id/editText2" />
+                android:hint="Masukan Email"
+                android:inputType="textPersonName" />
 
             <TextView
-                android:text="Pilih Gender Anda"
+                android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView3" />
+                android:text="Gender" />
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -70,19 +70,19 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:text="Masukkan Hobi Anda"
+                    android:text="Hobi"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView4" />
 
                 <CheckBox
-                    android:text="Nonton Film"
+                    android:text="Futsal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/checkBox10" />
 
                 <CheckBox
-                    android:text="Rakit PC"
+                    android:text="Baca Buku"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/checkBox9" />
@@ -106,7 +106,7 @@
                     android:id="@+id/checkBox6" />
 
                 <CheckBox
-                    android:text="Running"
+                    android:text="LAri"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/checkBox5" />
