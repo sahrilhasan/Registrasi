@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Masukkan Nama anda"
+                android:ems="10"
+                android:id="@+id/editText" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Masukkan Email anda"
+                android:ems="10"
+                android:id="@+id/editText2" />
+
+            <TextView
+                android:text="Pilih Gender Anda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:text="Laki-Laki"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:text="Perempuan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton2"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:text="Tidak Ingin Dikenal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton3"
+                    android:layout_weight="1"
+                    android:checked="true" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="Masukkan Hobi Anda"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView4" />
+
+                <CheckBox
+                    android:text="Nonton Film"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox10" />
+
+                <CheckBox
+                    android:text="Rakit PC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox9" />
+
+                <CheckBox
+                    android:text="Music"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox8" />
+
+                <CheckBox
+                    android:text="shoping"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox7" />
+
+                <CheckBox
+                    android:text="Coding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox6" />
+
+                <CheckBox
+                    android:text="Running"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox5" />
+
+                <CheckBox
+                    android:text="Game"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox4" />
+
+                <CheckBox
+                    android:text="Traveling"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox3" />
+
+                <CheckBox
+                    android:text="Diving"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox2" />
+
+                <CheckBox
+                    android:text="Sepak Bola"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox" />
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:ems="10"
+                android:id="@+id/editText6"
+                android:text="masukkan nomer HP" />
+
+            <Button
+                android:text="Submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
